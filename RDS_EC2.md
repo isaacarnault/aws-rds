@@ -329,17 +329,6 @@ Replace "localhost" in "Database host" filed by your `RDS` endpoint. Go to RDS >
 </p>
 </details>
 
-When clicking on "Submit", you should have the following screen. <br>
-
-<details>
-<summary>🔴 See output</summary>
-<p>  
-  
-[![isaac-arnault-AWS-59.png](https://i.postimg.cc/3RvD2qLc/isaac-arnault-AWS-59.png)](https://postimg.cc/CBw1gcpG)
-
-</p>
-</details>
-
 Before you "Run the installation", connect to your `EC2` instance.<br>
 
 # 5.2: connect to your EC2 instance
