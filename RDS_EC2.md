@@ -1,11 +1,11 @@
 
 We can skip Part 1 if we have a User and Group already provisioned.<br>
 
-Otherwise make sure to create a User and Group via `IAM`, https://console.aws.amazon.com/iam/home.
+Otherwise, make sure to create a User and Group via `IAM`, https://console.aws.amazon.com/iam/home.
 
 ## Part 1 : create a User and a Group using IAM
 
-- We log into your `AWS` management console using `$ https://console.aws.amazon.com.`<br>
+- We log into our `AWS` management console using `$ https://console.aws.amazon.com.`<br>
 
 I'm using `MFA` to secure my root account access coupled with `Google Authenticator` on my `Android` smartphone.<br>
 
@@ -65,7 +65,7 @@ We go to Services > IAM > Users > Add user<br>
 </p>
 </details>
 
-<b>Download .csv</b> (you gonna use these credentials later on this tutorial)<br>
+<b>Download .csv</b> (you're going to use these credentials later on in this tutorial)<br>
 
 - We write down our Access key ID and Secret access key > close the window<br>
 
@@ -97,9 +97,9 @@ Services > EC2<br>
 
 - In "Create Instance" section, click on "Launch Instance"<br>
 
-We gonna choose 2 instances <br>
+We're going to choose 2 instances <br>
 
-- We welect Amazon Linux 2 AMI (HVM), SSD Volume Type<br>
+- We select Amazon Linux 2 AMI (HVM), SSD Volume Type<br>
 
 - Instance type: choose t2.micro (Free tier eligible). Instance comes with 1vCPU and 1 GiB (memory).<br>
 
@@ -211,7 +211,7 @@ Review and launch > Launch > Create New Key Pair > Key Pair Name : EC2KP > Downl
 
 - Specify DB details : we'll leave all fields as they're by default, except :<br>
   
-<b>DB instance class</b> : select db.t2.micro which comes with 1 vCPU and 1 GiB RAM. Obviously if you need more computational resources feel free to scale it up.<br>
+<b>DB instance class</b> : select db.t2.micro which comes with 1 vCPU and 1 GiB RAM. Obviously, if you need more computational resources, feel free to scale it up.<br>
 
 <b>DB instance identifier</b> : wp_mySQL
 
@@ -250,7 +250,7 @@ Set it to 0 days <br>
 </p>
 </details>
 
-- Deletion protection : we enable deletion protection then we "Create database".<br>
+- Deletion protection : we enable deletion protection, then we "Create database".<br>
 
 <details>
 <summary>🔴 See output</summary>
@@ -333,11 +333,11 @@ Before you "Run the installation", connect to your `EC2` instance.<br>
 
 # 5.2: connect to your EC2 instance
 
-We should remember that we've downloaded an EC2KP.pem file earlier. We will now move that file to a newly created directory.<br>
+We should remember that we've downloaded an EC2KP.pem file earlier. We will now move this file to a newly created directory.<br>
 
 Ctrl + Alt + T to open a new CLI window<br>
 
-`$ cd Desktop > $ mkdir SSH` - This to create an SSH directory to store our Key Pair (credentials).<br>
+`$ cd Desktop > $ mkdir SSH` - Creates an SSH directory to store our Key Pair (credentials).<br>
 
 `$ cd Downloads` > `$ sudo mv /home/zaki/Downloads/EC2KP.pem /home/zaki/Desktop>SSH`<br>
 
@@ -405,7 +405,7 @@ When connected to SSH, we should perform the following commands :
 
 `$ nano wp-config.php` - to create and set up a `Wordpress` conf file<br>
 
-At this step we should go back to our web browser and copy/paste the provided script upon `Wordpress` installation. We paste it into our config.php file. See below :<br>
+At this step, we should go back to our web browser and copy/paste the provided script upon `Wordpress` installation. We paste it into our config.php file. See below :<br>
 
 <details>
 <summary>🔴 See output</summary>
