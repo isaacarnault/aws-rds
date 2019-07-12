@@ -396,7 +396,7 @@ Remember that we wrote down our `Access Key ID` and `Secret access key` when cre
 <summary>🔴 See output</summary>
 <p>  
   
-[![isaac-arnault-AWS-43.png](https://i.postimg.cc/25SHNgmJ/isaac-arnault-AWS-43.png)](https://postimg.cc/qNWc8bNX)
+[![isaac-arnault-AWS-36.png](https://i.postimg.cc/G3f9qwg2/isaac-arnault-AWS-36.png)](https://postimg.cc/CdjFxtgT)
 
 </p>
 </details>
